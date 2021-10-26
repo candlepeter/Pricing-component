@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>Pricing component with toggle master</title>
+</head>
+<body>
+  <main class="container">
+    <div class="bg-top"></div>
+    <div class="bg-bottom"></div>
+    <!-- header text -->
+    <h1>Our Pricing</h1>
+    <!-- toggle button -->
+    <div class="toggle">
+      <p>Annually</p>
+      <div class="outer">
+        <div class="inner">
+        </div>
+        <input type="checkbox" name="check" id="check">
+      </div>
+      <p>Monthly</p>
+    </div>
+    <!-- card container -->
+    <div class="card-container">
+      <!-- basic pricing plan -->
+      <div class="basic-plan card">
+        <p>Basic</p>
+        <p class="price"><span>$</span> 199.99</p>
+        <p class="plan-info">500 GB Storage</p>
+        <p class="plan-info">2 Users Allowed</p>
+        <p class="plan-info">Send up to 3 GB</p>
+        <button class="btn">LEARN MORE</button>
+      </div>
+      <!-- professional pricing plan -->
+      <div class="professional-plan card">
+        <p>Professional</p>
+        <p class="price"><span>$</span> 249.99</p>
+        <p class="plan-info">1 TB Storage</p>
+        <p class="plan-info">5 Users Allowed</p>
+        <p class="plan-info">Send up to 10 GB</p>
+        <button class="btn professional">LEARN MORE</button>
+      </div>
+      <!-- master pricing plan -->
+      <div class="master-plan card">
+        <p>Master</p>
+        <p class="price"><span>$</span> 399.99</p>
+        <p class="plan-info">2 TB Storage</p>
+        <p class="plan-info">10 Users Allowed</p>
+        <p class="plan-info">Send up to 20 GB</p>
+        <button class="btn">LEARN MORE</button>
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
