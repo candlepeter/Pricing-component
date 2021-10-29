@@ -15,6 +15,7 @@ body {
   font-size: 15px;
   display: grid;
   place-content: center;
+  font-family: "Montserrat" sans-serif;
 }
 
 .container {
